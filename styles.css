@@ -243,9 +243,9 @@ body {
 }
 
 .modal p {
-  font-family: 'Lucida Handwriting', cursive;
-  font-size: 17px;
-  text-align: left;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 28px;
+  text-align: center;
   line-height: 25px;
   color: #003049;
 }
