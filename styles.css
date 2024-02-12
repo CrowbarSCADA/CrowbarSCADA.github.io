@@ -206,16 +206,24 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%; 
-  max-width: 210mm;
-  height: 70%;
-  max-height: 80vh; 
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  max-height: 80vh;
+  /* Additional styles for responsiveness */
+  font-size: 18px; /* Set a fixed base font size */ 
   background-color: #eae2b7; 
   padding: 20px;
   border: 2px solid #003049; 
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   z-index: 2;
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  max-height: 80vh;
+  /* Additional styles for responsiveness */
+  font-size: 18px; /* Set a fixed base font size */
 }
 
 .textbookm{
@@ -252,7 +260,7 @@ body {
   color: #003049;
   font-size: 16px; /* Adjust font size for better readability on smaller screens */
   max-width: 100%; /* Ensure the text does not exceed the width of the modal */
-  word-wrap: break-word; /* Break long words to prevent overflow */
+  overflow-wrap: break-word; /* Break words if they exceed the container */
 }
 
 
