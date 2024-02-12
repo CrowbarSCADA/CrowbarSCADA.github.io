@@ -242,13 +242,19 @@ body {
   left: 0;
 }
 
+
+
 .modal p {
   font-family: 'Brush Script MT', cursive;
-  font-size: 28px;
-  text-align: center;
+  font-size: 16px; 
+  text-align: left; 
   line-height: 25px;
   color: #003049;
+  font-size: 16px; /* Adjust font size for better readability on smaller screens */
+  max-width: 100%; /* Ensure the text does not exceed the width of the modal */
+  word-wrap: break-word; /* Break long words to prevent overflow */
 }
+
 
 .close {
   position: absolute;
