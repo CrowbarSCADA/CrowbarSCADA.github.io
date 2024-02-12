@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">  
+    <div class="valentines" onclick="toggleModal()">
+      <div class="envelope"></div>
+      <div class="front"></div>
+      <div class="card">
+        <!-- Modal for the letter -->
+        <div class="button">For my Liz</div>
+        <div class="heart"></div>
+      </div>
+      <div class="hearts">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow" onclick="hideModal()"></div>
+  <!-- Move the modal outside of the .valentines div -->
+  <div class="modal" id="myModal">
+    <span class="close" onclick="hideModal()">&times;</span>
+    <p>My Dearest Liz, <br> <br> I hope this letter finds you well and not hungover, I am writing this letter to express my infinite 
+      love to you and improve my coding skills. <br> This is probably the gayest thing I did, but making you happy is worth a little 
+      zest. I wanted to send you this letter to let you know that you are loved, and luckily enough by me (you should be grateful). 
+      While creating this project, writing this letter was the hardest thing to do, expressing my love and manifesting it into 
+      words is surprisingly hard for me. I think you're someone special and I wanted to tell you that. Your kindness, intelligence, 
+      and beauty always make me proud to be your partner. Getting to know you has been one of the highlights of my life so far.
+      I hope you have a great Valentine's Day filled with love from friends, family, and of course me. <br> <br> As always, I am 
+      infinitely grateful to share this short life with you, and I hope I can share it with you again in the 
+      hereafter. <br><br> Yours Forever, <br> Aj. 
+    </p>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
+
